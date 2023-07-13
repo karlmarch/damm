@@ -1,0 +1,144 @@
+label {
+	font-size: 1.06rem;
+	line-height: 1.1rem;
+	font-weight: $font-semibold;
+	margin-bottom: $spacing;
+}
+
+input:not([type="radio"]), select, textarea {
+	width: 100%;
+	border-radius: 10px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+textarea {
+	
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+	border-color: $colour-brand-darkcyan;
+	padding: 12px 20px;
+}
+
+input[type="checkbox"] {
+	border: 1px $colour-brand-darkcyan solid;
+	width: 24px !important;
+	height: 24px;	
+}
+
+.icon-radio {
+	label {
+		@include flexbox();
+		align-items: center;
+		cursor: pointer;
+		font-size: 0.9rem;
+		font-weight: $font-regular;
+		padding-left: 0 !important;
+		margin-bottom: 6px !important;
+		transition: all 400ms ease-in-out;
+		
+		&:focus-within, &:hover {
+			color: $colour-brand-cyan;;
+		}
+	}
+	input[type="radio"] {
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		aspect-ratio: 1/1;
+		border-width: 3px;
+		border-color: #fff;
+		border-style: solid;
+		position: relative;
+		border-radius: 50%;
+		margin-left: 0 !important;
+		margin-right: 12px;
+		transition: all 300ms ease-in-out;
+		position: relative;
+		
+		&:after {
+			content: "";
+			font-family: "Font Awesome 6 Pro";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: $colour-brand-darkblue;
+			font-size: 18px;
+			line-height: 20px;
+			font-weight: 800;
+			z-index: 2;
+		}
+		
+		&:before {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			border-radius: 50%;
+			top: 2px;
+			left: 2px;
+			background-color: white;
+			z-index: 1;
+		}
+	}
+	
+	input[type="radio"]:checked::before {
+	  
+	}
+	input[type="radio"]:focus {
+		border-color: $colour-brand-cyan;  
+		
+		&:after {
+			color: $colour-brand-darkcyan;
+		}
+	}
+}
+
+.icon-radio {
+	&--close { //------------------------- Close Icon
+		input[type="radio"]::after {
+			content: "\f00d";
+		}	
+	}
+	
+	&--check { //------------------------- Check Mark Icon
+		input[type="radio"]::after {
+			content: "\f00c";
+		}	
+	}
+	
+	&--open-package { //------------------------- Open Package Icon
+		input[type="radio"]::after {
+			content: "\f49e";
+		}	
+	}
+	
+	&--pdf { //------------------------- PDF Icon
+		input[type="radio"]::after {
+			content: "\f1c1";
+		}	
+	}
+	
+	&--money {	//------------------------- Bag of Money Icon
+		input[type="radio"]::after {
+			content: "\f81d";
+		}	
+	}
+}
+
+.content-panel {
+	input, textarea {
+		border-color: transparent;
+	}
+	
+	input[type="submit"] {
+		background-color: $colour-brand-cyan;
+	}
+}

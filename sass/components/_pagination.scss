@@ -1,0 +1,58 @@
+.pagination {
+	@include flexbox();
+	justify-content: center;
+	margin-top: $spacing*7;
+	
+	.prev, .next {
+		font-size: 0.94rem;
+		line-height: 0.94reml
+	}
+	
+	.prev {
+		margin-right: $spacing*2;
+	}
+	
+	.next {
+		margin-left: $spacing*2;
+	}
+	
+	ul {
+		@include flexbox();
+		align-items: center;
+	}
+	
+	li {
+		width: 10px;
+		height: 10px;
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+		background-color: #D5D5D5;
+		margin-right: 3px;
+		transition: background-color 400ms ease-in-out;
+		
+		&:last-of-type {
+			margin-right: 0;
+		}
+		
+		&.current {
+			background-color: $colour-brand-cyan;
+		}
+		
+		&:hover {
+			background-color: $colour-brand-cyan;
+		}
+		
+		a {
+			display: block;
+			height: 100%;
+		}
+	}
+	
+	a {
+		color: #676767;
+		
+		&:hover {
+			color: $colour-brand-darkcyan;
+		}
+	}
+}

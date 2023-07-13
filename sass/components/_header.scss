@@ -1,0 +1,33 @@
+.masthead {
+	@include flexbox();
+	align-items: center;
+	background-color: $colour-brand-darkblue;
+	height: 60px;
+	
+	&__inner {
+		@include flexbox();
+	}
+	
+	&__logo {
+		padding-right: 50px;	
+	}
+	
+	&__menu {
+		ul {
+			@include flexbox();
+		}
+		
+		li {
+			margin-right: $spacing*4;
+			font-weight: $font-semibold;		
+		}
+		
+		a {
+			color: #fff;
+			
+			&:hover {
+				color: $colour-brand-cyan;
+			}
+		}
+	}
+}

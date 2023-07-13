@@ -1,0 +1,32 @@
+.site-end {
+	padding: $spacing*5 0 $spacing*10 0;
+	background-color: $colour-brand-darkblue;
+	margin-top: 100px;
+	max-height: 270px;
+	
+	&__inner {
+		@include flexbox();	
+	}
+	
+	&__logo {
+		padding-right: 25px;
+	}
+	
+	&__menu {
+		border-right: 1px #546195 solid;
+		padding-right: 85px;
+		padding-left: 25px;
+		
+		li {
+			margin-bottom: 2px;
+		}
+		
+		li a {
+			color: #fff;
+			
+			&:hover {
+				color: $colour-brand-cyan;
+			}
+		}
+	}
+}

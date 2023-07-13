@@ -1,0 +1,12 @@
+.multiple-choice {
+	margin-top: -$spacing*9;
+	margin-bottom: $spacing*11;
+	
+	display: none;
+	
+	.form__field {
+		@include flexbox();
+		flex-direction: column;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,19 @@
+.status {
+	&:before {
+		content: "";
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		margin-right: $spacing;
+		background-color: #e1e1e1;
+		display: inline-block;
+	}
+	
+	&--approved:before {
+		background-color: #119F58;	
+	}
+	
+	&--awaiting-approval:before {
+		background-color: #cf3f00;	
+	}
+ }

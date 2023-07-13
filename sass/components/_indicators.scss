@@ -1,0 +1,29 @@
+.indicator {
+	@include flexbox();
+	align-items: center;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	padding: 5px;
+	font-weight: $font-extrabold;
+	text-align: center;
+	
+	span {
+		display: block;
+		width: 100%;
+	}
+	
+	&--po {
+		background-color: $colour-teal;
+		color: #fff;
+	}
+	
+	&--order {
+		background-color: $colour-purple;
+		color: #fff;
+	}
+	
+	&__sub {
+		border-radius: 50%;
+		aspect-ratio: 1/1;
+	}
+}

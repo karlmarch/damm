@@ -1,0 +1,11 @@
+a {
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+	color: $colour-brand-darkcyan;
+
+	&:hover, &:focus, &:active {
+		transition: all 300ms ease-in-out;
+		text-decoration: none;
+		color: $colour-brand-cyan;
+	}
+}

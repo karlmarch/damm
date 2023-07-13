@@ -1,0 +1,152 @@
+.actions-links {
+	@include flexbox();	
+}
+
+.actions-link {
+	@include flexbox();
+	justify-content: center;
+	align-items: center;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	background-color: $colour-brand-darkcyan;
+	color: #fff;
+	width: 27px;
+	height: 27px;
+	text-align: center;
+	margin-right: 4px;
+	
+	&:hover {
+		background-color: $colour-brand-cyan;
+		
+		i {
+			color: #fff;
+		}
+	}
+	
+	i {
+		font-size: 12px;
+		color: #fff;
+	}
+	
+	&--delete {
+		background-color: $colour-utility-warning;
+		
+		&:hover {
+			background-color: darken($colour-utility-warning, 20);
+		}
+	}
+}
+
+.stripe-table--dark {
+	.actions-link {
+		background-color: $colour-brand-darkblue;
+		
+		&:hover {
+			background-color: $colour-brand-darkcyan;
+		}
+	}
+}
+
+.icon-links {
+	.icon-link {
+		margin-bottom: $spacing;
+	}
+}
+
+.icon-link {
+	@include flexbox();
+	align-items: center;
+	cursor: pointer;
+		
+	&__icon {
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		aspect-ratio: 1/1;
+		border-width: 3px;
+		border-color: $colour-brand-darkblue;
+		border-style: solid;
+		position: relative;
+		border-radius: 50%;
+		margin-right: $spacing;
+		transition: all 300ms ease-in-out;
+		
+		&:after {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			border-radius: 50%;
+			top: 2px;
+			left: 2px;
+			background-color: $colour-brand-darkcyan;
+			z-index: 1;
+		}
+		
+		i {
+			position: relative;
+			z-index: 2;
+			color: #fff !important;
+		}
+	}
+	
+	&__label {
+		font-size: 1.2rem;
+		font-weight: $font-semibold;
+		color: $colour-brand-darkblue;
+		transition: all 300ms ease-in-out;
+	}
+}
+
+.icon-link--small {
+	.icon-link__icon {
+		width: 34px;
+		height: 34px;
+		
+		&:after {
+			width: 24px;
+			height: 24px;
+		}
+		
+		i {
+			font-size: 15px;
+		}
+	}
+	.icon-link__label {
+		font-size: 1rem;
+	}
+}
+
+.content-panel {
+	.icon-link {
+		&__icon  {
+			border-color: #fff;
+		
+			&:after {
+				background-color: #fff;
+			}
+		
+			i {
+				color: $colour-brand-darkblue !important;
+			}
+		}
+	}
+}
+
+.icon-link:hover {
+	.icon-link__icon {
+		border-color: $colour-brand-cyan;	
+	}
+	
+	.icon-link__label {
+		color: $colour-brand-cyan;
+	}
+}
+
+.corner-link {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+}

@@ -1,0 +1,35 @@
+$spacing : 8px;
+
+@function spacing($amount){
+  @return $amount * $spacing;
+}
+
+@mixin utility-spacer($property, $amount, $position: null){
+
+	@if $position {
+		.utility-#{$property}-#{$position}-#{$amount} {
+			#{$property}-#{$position}: spacing($amount) !important;
+		}
+	}
+	@else {
+		.utility-#{$property}-#{$amount} {
+			#{$property}: spacing($amount) !important;
+		}
+	}
+}
+
+@for $i from 0 through 10 {
+	// Margin
+	@include utility-spacer(margin, $i);
+	@include utility-spacer(margin, $i, top);
+	@include utility-spacer(margin, $i, right);
+	@include utility-spacer(margin, $i, bottom);
+	@include utility-spacer(margin, $i, left);
+
+	// Padding
+	@include utility-spacer(padding, $i);
+	@include utility-spacer(padding, $i, top);
+	@include utility-spacer(padding, $i, right);
+	@include utility-spacer(padding, $i, bottom);
+	@include utility-spacer(padding, $i, left);
+}

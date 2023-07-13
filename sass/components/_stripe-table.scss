@@ -1,0 +1,179 @@
+.table-title {
+	@include flexbox();
+	justify-content: space-between;
+	margin-bottom: $spacing*5;
+	
+	&__left, &__right {
+		@include flexbox();
+		align-items: center;
+		
+		h5 {
+			margin-bottom: 0;
+		}
+	}
+	
+	&__left {
+		h5 {
+			margin-right: $spacing*4;
+		}
+	}
+	
+	&__right {
+		h5 {
+			margin-left: $spacing*4;
+		}
+	}
+	
+	&__title {
+		@include flexbox();
+		align-items: center;
+		
+		.indicator {
+			width: 38px;
+			height: 38px;
+			margin-right: $spacing*2;
+		}
+	}
+	
+	&__cta {
+		@include flexbox();
+		align-items: center;
+	}
+	
+	h3 {
+		color: $colour-brand-darkblue;
+		margin-bottom: 0;
+	}
+}
+
+table.stripe-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 4px;
+	
+	thead {
+		background-color: $colour-brand-darkblue;
+		border-top-left-radius: 15px !important;
+		border-top-right-radius: 15px !important;
+	}
+	
+	th {	
+		color: #fff;
+		font-size: 14px;
+		font-weight: $font-semibold;
+		text-align: left;
+		padding: 12px 15px;
+	}
+	
+	td {
+		padding: 7px 15px;
+		font-size: 13px;
+		
+		a {
+			margin-right: 4px;
+			
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}	
+	}
+	
+	td.has-indicators {
+		@include flexbox();
+	}
+	
+	tbody {
+		tr:nth-of-type(odd) {
+			background-color: $colour-stripe-dark;	
+		}
+		
+		tr:nth-of-type(even) {
+			background-color: $colour-stripe-light;
+		}
+		
+		tr {
+			margin-bottom: 4px;
+		}
+	}
+	.indicator {
+		width: 27px;
+		height: 27px;
+		font-size: 13px;
+		line-height: 13px;
+		text-align: center;
+		font-weight: $font-semibold;
+	}
+	
+	&__actions {
+		
+	}
+}
+
+.shadow-panel .stripe-table {
+	margin-top: -4px; // Corrects slight visual issue with thead background
+}
+
+footer.table-footer {
+	@include flexbox();
+	justify-content: space-between;
+	
+	&__label {
+		
+	}
+}
+
+.stripe-table--dark {
+		
+	thead {
+		background-color: #20294D;	
+	}
+	
+	tbody {
+		background-color: #444D6F;
+		
+		tr:nth-of-type(odd) {
+			background-color: #616B91 !important;	
+		}
+		
+		tr:nth-of-type(even) {
+			background-color: #7984AF !important;
+		}
+		
+		td {
+			color: #fff;
+		}
+	}
+}
+
+.stripe-table--notifications {
+	tr {
+		.icon-link__icon {
+			border-color: $colour-panelblue;
+			
+			&:after {
+				background-color: $colour-panelblue;
+			}
+		}	
+	}
+	
+	tr.alert {
+		background-color: #FFE8E8 !important;
+		color: #DD0000;
+		
+		.icon-link__icon {
+			border-color: #DD0000;
+			
+			&:after {
+				background-color: #DD0000;
+			}
+		}
+		
+		td {
+			color: #DD0000 !important;
+		}
+	}
+	
+	td {
+		font-size: 0.94rem !important;
+	}
+}

@@ -1,0 +1,20 @@
+a.button, input[type="submit"] {
+	border-radius: 15px;
+	background-color: $colour-brand-darkcyan;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.1rem;
+	font-family: $main-font;
+	font-weight: $font-semibold;
+	text-transform: capitalize;
+	padding: $spacing*2 $spacing*4;
+	border: 1px transparent solid;
+	cursor: pointer;
+	text-align: center;
+	
+	&:hover {
+		border-color: $colour-brand-darkcyan;
+		background-color: #fff;
+		color: $colour-brand-darkcyan;
+	}
+}
