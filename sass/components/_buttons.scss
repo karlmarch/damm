@@ -11,10 +11,16 @@ a.button, input[type="submit"] {
 	border: 1px transparent solid;
 	cursor: pointer;
 	text-align: center;
+	transition: all 300ms ease-in-out;
 	
 	&:hover {
 		border-color: $colour-brand-darkcyan;
 		background-color: #fff;
 		color: $colour-brand-darkcyan;
 	}
+}
+
+a.button--small {
+	font-size: 0.85rem;
+	padding: $spacing*2;
 }

@@ -9,7 +9,7 @@
 			<h1>Order</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="marketplace-new-order.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-file-plus"></i> 
 				</div>

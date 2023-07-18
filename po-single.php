@@ -4,10 +4,8 @@
 	<div class="page-title">
 		<header class="page-title__title">
 			<div class="indicator indicator--po">
-				<span>67</span>
-				<div class="indicator__sub indicator--order">
-					<span><a href="orders-single.php">50</span>
-				</div>
+				67
+				<a class="indicator__sub indicator--order" href="orders-single.php">50</a>
 			</div>
 			<h1>Purchase Order</h1> 
 		</header>

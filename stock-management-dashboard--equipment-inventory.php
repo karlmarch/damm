@@ -6,7 +6,7 @@
 			<h1>Stock Management</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="receive-stock.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-barcode"></i> 
 				</div>
@@ -244,7 +244,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Inventory Item" href="equipment-stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Inventory Item" href="stock-management-item-single--equipment.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>
@@ -253,10 +253,10 @@
 						<input type="checkbox" />	
 					</td>
 					<td>
-						XA986TR
+						J967TRE
 					</td>
 					<td>
-						Kavo Experttorque
+						Another product name
 					</td>
 					<td>
 						Company X
@@ -272,7 +272,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Inventory Item" href="equipment-stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Inventory Item" href="stock-management-item-single--equipment.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 							
 						</nav>
 					</td>

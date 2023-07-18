@@ -7,6 +7,7 @@
 	padding: 5px;
 	font-weight: $font-extrabold;
 	text-align: center;
+	transition: all 400ms ease-in-out;
 	
 	span {
 		display: block;
@@ -16,14 +17,27 @@
 	&--po {
 		background-color: $colour-teal;
 		color: #fff;
+		
+		&:hover {
+			color: #fff;
+			background-color: lighten($colour-teal, 10%);
+		}
 	}
 	
 	&--order {
 		background-color: $colour-purple;
 		color: #fff;
+		
+		&:hover {
+			color: #fff;
+			background-color: lighten($colour-purple, 10%);
+		}
 	}
 	
 	&__sub {
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
 		border-radius: 50%;
 		aspect-ratio: 1/1;
 	}

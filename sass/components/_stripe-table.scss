@@ -66,8 +66,16 @@ table.stripe-table {
 	}
 	
 	td {
-		padding: 7px 15px;
+		padding: 7px 8px;
 		font-size: 13px;
+		
+		&:first-child {
+			padding-left: 15px;
+		}
+		
+		&:last-child {
+			padding-right: 15px;
+		}
 		
 		a {
 			margin-right: 4px;

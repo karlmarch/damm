@@ -6,7 +6,7 @@
 			<h1>Purchase Orders</h1>
 		</header>
 		<div class="page-title__cta">
-			<a class="icon-link" onclick="location.href='/Script/MCH/SupplierOrderI.asp?SupplierID=&amp;ReturnURL=/Script/MCH/SupplierOrderF.asp%3FReturnURL%3D%26PageAction%3Dsearch%26SortDir%3D%26SortKey%3D%26UseLightboxPopups%3D1%26Keyword%3D%26VendorID%3D%26SupplierID%3D%26WorkflowStateID%3D%26StateTypeID%3D%26StartDate%3D%26EndDate%3D%26LinkPurchaseOrderRef%3D&amp;Msg=Please%20Complete%20the%20General%20Details%20of%20this%20purchase%20order'">
+			<a class="icon-link" href="po-new.php">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-file-plus"></i> 
 				</div>
@@ -38,19 +38,18 @@
 					<label>Date Range</label>
 					<div class="form-grid__row form__field__dates">
 						<div class="date-field">
-							<div id="StartDatediv" style="position:absolute;visibility:hidden;background-color:white;layer-background-color:white;"></div>
-								<input title="Enter an End Date Here" onfocus="this.select();" type="text" name="EndDate" value="" placeholder="From DD/MM/YYYY" />
-								
-								<script type="text/javascript">var calSD = new CalendarPopup("StartDatediv");</script>
-								<a onclick="return calendar_onclick( calSD, document.SearchForm.StartDate, 'anchor1' );" title="Click to Select a Start Date from the Calendar" name="anchor1" id="anchor1">
-									<a class="icon-link">
-										<div class="icon-link__icon">
-											<i class="fa-solid fa-calendar"></i> 
-										</div>
-									</a>
-								</a>
+							<div id="StartDatediv"></div>
+							<input title="Enter an End Date Here" onfocus="this.select();" type="text" name="EndDate" value="" placeholder="From DD/MM/YYYY" />
+							
+							<script type="text/javascript">var calSD = new CalendarPopup("StartDatediv");</script>
+							<a onclick="return calendar_onclick( calSD, document.SearchForm.StartDate, 'anchor1' );" title="Click to Select a Start Date from the Calendar" name="anchor1" id="anchor1" class="icon-link">
+								<div class="icon-link__icon">
+									<i class="fa-solid fa-calendar"></i> 
+								</div>
+							</a>
 						</div>
 						<div class="date-field">
+							<div id="EndDatediv"></div>
 							<input type="text" placeholder="To DD/MM/YYYY">
 							<a class="icon-link">
 								<div class="icon-link__icon">
@@ -132,7 +131,7 @@
 		<table class="TableCRM stripe-table">
 			<thead>
 				<tr>
-					<th align="center">
+					<th>
 						PO No
 					</th>
 					<th>

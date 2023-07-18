@@ -1,0 +1,12 @@
+.product-slider {
+	position: relative;	
+}
+
+.product-slider {
+	.product {
+		&__image {
+			width: 270px;
+			height: 270px;
+		}	
+	}	
+}

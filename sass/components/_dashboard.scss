@@ -37,7 +37,7 @@
 		padding-bottom: 100px;
 		position: relative;
 		
-		header {
+		& > header {
 			background-color: $colour-brand-darkblue;
 			color: #fff;
 			text-align: center;
@@ -64,6 +64,28 @@
 			tr {
 				padding-left: 20px;
 				padding-right: 20px;
+			}
+		}
+		
+		.product {
+			
+			&__image {
+				margin-top: $spacing*4;
+				max-width: 190px;
+			}
+			
+			&__info {
+				text-align: center;
+				
+				header {
+					font-size: 1rem;
+					line-height: 1.2rem;
+				}
+				
+				&__price {
+					font-size: 1.2rem;
+					font-weight: $font-semibold;
+				}
 			}
 		}
 	}

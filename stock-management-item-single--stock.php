@@ -6,7 +6,7 @@
 			<h1>Colgate Toothbrush</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="receive-stock.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-file-plus"></i> 
 				</div>
@@ -183,7 +183,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-received-view.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-received-view--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>
@@ -212,7 +212,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-received-view.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-received-view--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>
@@ -241,7 +241,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-received-view.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-received-view--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>
@@ -270,7 +270,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-received-view.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-received-view--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>
@@ -299,7 +299,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-received-view.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-received-view--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 						</nav>
 					</td>
 				</tr>

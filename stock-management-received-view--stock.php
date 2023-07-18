@@ -6,7 +6,7 @@
 			<h1>Colgate Toothbrush</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="marketplace-dashboard.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-file-plus"></i> 
 				</div>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		
-		<div class="utility-margin-top-2">
+		<div class="utility-margin-top-4">
 			<header class="content-panel-title">
 				Inventory Information
 			</header>
@@ -61,9 +61,7 @@
 						<header class="small-title">
 							PO Number
 						</header>
-						<div class="indicator indicator--po">
-							<a href="po-single.php">67</a>
-						</div>	
+						<a class="indicator indicator--po" href="po-single.php">67</a>
 					</div>	
 				</div>
 				<div class="col-lg-4 col-md-4">
@@ -71,9 +69,7 @@
 						<header class="small-title">
 							Order Number
 						</header>
-						<div class="indicator indicator--order">
-							<a href="orders-single.php">50</a>
-						</div>	
+						<a class="indicator indicator--order" href="orders-single.php">50</a>
 					</div>	
 				</div>
 			</div>

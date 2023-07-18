@@ -43,6 +43,12 @@
 	h1 {
 		color: $colour-brand-darkblue;
 		margin-bottom: 0;
+		
+		span {
+			font-size: 1.38rem;
+			display: block;
+			margin-bottom: $spacing;
+		}
 	}
 	
 	&__cta {

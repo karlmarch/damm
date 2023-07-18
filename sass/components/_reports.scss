@@ -1,0 +1,17 @@
+.report-box {
+	@include flexbox();
+	justify-content: space-between;
+	margin-bottom: $spacing*2;
+	
+	&__info {
+		header {
+			font-weight: $font-semibold;
+		}
+	}
+	
+	&__cta {
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+	}
+}

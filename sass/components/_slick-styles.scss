@@ -1,0 +1,27 @@
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	aspect-ratio: 1/1;
+	background-color: $colour-brand-darkcyan;
+	transition: background-color 400ms ease-in-out;
+	
+	&:before {
+		font-size: 20px;
+		color: #fff;
+	}
+	
+	&:hover {
+		background-color: $colour-brand-cyan;
+	}
+}
+
+.slick-prev {
+	left: 0;		
+}
+
+.slick-next {
+	right: 0;	
+}

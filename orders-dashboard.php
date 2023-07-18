@@ -6,7 +6,7 @@
 			<h1>Orders</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="marketplace-new-order.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-file-plus"></i> 
 				</div>
@@ -38,7 +38,7 @@
 					<label>Date Range</label>
 					<div class="form-grid__row form__field__dates">
 						<div class="date-field">
-							<div id="StartDatediv" style="position:absolute;visibility:hidden;background-color:white;layer-background-color:white;"></div>
+							<div id="StartDatediv"></div>
 								<input title="Enter an End Date Here" onfocus="this.select();" type="text" name="EndDate" value="" placeholder="From DD/MM/YYYY" />
 								
 								<script type="text/javascript">var calSD = new CalendarPopup("StartDatediv");</script>
@@ -88,7 +88,13 @@
 </div>
 
 <div class="container container--narrow">
-	<h3 class="table-title">Recent Orders</h3>	
+	<header class="table-title">
+		<div class="table-title__left">
+			<div class="table-title__title">
+				<h3>Recent Orders</h3>
+			</div>
+		</div>
+	</header>
 	<div class="shadow-panel">
 		<table class="TableCRM stripe-table">
 			<thead>

@@ -8,16 +8,20 @@
 @import "settings/typography";
 
 @import "mixins/flexbox";
+@import "mixins/image-frame";
+
 
 @import "elements/tables";
 @import "elements/page";
 @import "elements/links";
 @import "elements/forms";
+@import "elements/images";
 
 @import "components/header";
 @import "components/footer";
 @import "components/global";
 @import "components/buttons";
+@import "components/controls";
 @import "components/content-panels";
 @import "components/dashboard";
 @import "components/form-grids";
@@ -29,3 +33,7 @@
 @import "components/pagination";
 @import "components/status";
 @import "components/multiple-choice";
+@import "components/slick";
+@import "components/slick-styles";
+@import "components/products";
+@import "components/reports";

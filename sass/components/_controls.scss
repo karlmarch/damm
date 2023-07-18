@@ -1,0 +1,13 @@
+.controls {
+	@include flexbox();
+	justify-content: center;
+	padding: $spacing*6 0;
+	
+	a {
+		margin-right: $spacing*4;
+		
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}

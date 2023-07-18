@@ -25,7 +25,7 @@
 			<nav class="dashboard__intro__links">
 				<ul>
 					<li>
-						<a href="#" class="icon-link icon-link--small">
+						<a href="po-new.php" class="icon-link icon-link--small">
 							<div class="icon-link__icon">
 								<i class="fa-solid fa-file-plus"></i>
 							</div>
@@ -35,7 +35,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#" class="icon-link icon-link--small">
+						<a href="marketplace-new-order.php" class="icon-link icon-link--small">
 							<div class="icon-link__icon">
 								<i class="fa-solid fa-file-plus"></i>
 							</div>
@@ -45,7 +45,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#" class="icon-link icon-link--small">
+						<a href="receive-stock.php" class="icon-link icon-link--small">
 							<div class="icon-link__icon">
 								<i class="fa-solid fa-barcode"></i>
 							</div>
@@ -89,7 +89,7 @@
 				</table>
 			</div>
 			<div class="dashboard__panel__cta">
-				<a class="button" href="#">Notification Centre</a>
+				<a class="button" href="notifications-dashboard.php">Notification Centre</a>
 			</div>
 		</div>
 		
@@ -199,14 +199,28 @@
 		<!------------ Marketplace Panel Starts -------------->
 		
 		<div class="dashboard__panel shadow-panel">
-			<header>
-				Marketplace
-			</header>
 			<div class="dashboard__panel__content">
+				
+				<div class="product">
+					<div class="product__skin">
+						<div class="product__image img-frame">
+							<a title="Open Product: This is the title of a product" href="marketplace-product-single.php"><img src="img/temp-product.jpg" alt="Colgate Toothbrushes Multi-Pack" width="560" height="560" /></a>
+						</div>
+						<div class="product__info">
+							<header>
+								<a href="marketplace-product-single.php">This is the title of a product</a>
+							</header>
+							<div class="product__info__price">
+								<span class="sale">$24.50</span>
+								<span>$22.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
 				
 			</div>
 			<div class="dashboard__panel__cta">
-				<a class="button" href="#">Start Marketplace Order</a>
+				<a href="marketplace-product-single.php">Start Marketplace Order</a>
 			</div>
 		</div>
 		

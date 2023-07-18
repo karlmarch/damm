@@ -6,7 +6,7 @@
 			<h1>Stock Management</h1>
 		</header>
 		<div class="page-title__cta">
-			<a href="#" class="icon-link">
+			<a href="receive-stock.php" class="icon-link">
 				<div class="icon-link__icon">
 					<i class="fa-solid fa-barcode"></i> 
 				</div>
@@ -227,7 +227,7 @@
 						Colgate
 					</td>
 					<td>
-						1,567
+						438
 					</td>
 					<td>
 						100	
@@ -237,7 +237,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-item-single--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
 						</nav>
 					</td>
@@ -253,7 +253,7 @@
 						Colgate
 					</td>
 					<td>
-						1,567
+						438
 					</td>
 					<td>
 						100	
@@ -263,7 +263,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Stock Item" href="stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-management-item-single--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
 						</nav>
 					</td>
@@ -279,7 +279,7 @@
 						Colgate
 					</td>
 					<td>
-						1,567
+						438
 					</td>
 					<td>
 						100	
@@ -289,7 +289,7 @@
 					</td>
 					<td class="stripe-table__actions">
 						<nav class="actions-links">
-							<a class="actions-link" title="Click to View this Product" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to View this Product" href="stock-management-item-single--stock.php"><i class="fa-solid fa-eye fa-fw"></i></a>
 							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
 						</nav>
 					</td>

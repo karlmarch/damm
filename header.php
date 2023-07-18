@@ -57,7 +57,7 @@
 						<li><a href="orders-dashboard.php">Orders</a></li>
 						<li><a href="stock-management-dashboard--store-room.php">Stock Management</a></li>
 						<li><a href="marketplace-dashboard.php">Marketplace</a></li>
-						<li><a href="clinic-rooms-dashboard.php">Clinic Rooms</a></li>
+						<li><a href="rooms-dashboard.php">Clinic Rooms</a></li>
 						<li><a href="reports-dashboard.php">Reports</a></li>
 					</ul>
 				</nav>
