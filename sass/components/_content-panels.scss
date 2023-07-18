@@ -1,3 +1,23 @@
+.content-panel, .shadow-panel {
+	.small-title {
+		font-size: 1.06rem;
+		font-weight: $font-semibold;
+		margin-bottom: $spacing*3;
+	}
+	
+	.large-number {
+		font-size: 3.75rem;
+		line-height: 3.75rem;
+	}
+}
+
+.content-panel-title {
+	margin-bottom: $spacing*2;
+	font-size: 1.38rem;
+	font-weight: $font-semibold;
+	color: $colour-brand-darkblue;
+}
+
 .content-panel {
 	padding: $spacing*5;
 	background-color: $colour-panelblue;
@@ -18,15 +38,8 @@
 		z-index: -1;
 	}
 	
-	label {
+	label, .small-title, .large-number {
 		color: #fff;
-	}
-	
-	.small-title {
-		color: #fff;
-		font-size: 1.06rem;
-		font-weight: $font-semibold;
-		margin-bottom: $spacing*3;
 	}
 	
 	address {
@@ -34,6 +47,18 @@
 		line-height: 1.44rem;
 		font-weight: $font-regular;
 		color: #fff;
+	}
+	
+	.indicator {
+		width: 65px;
+		height: 65px;
+		border: 3px #fff solid;
+		font-size: 2rem;
+		font-weight: $font-extrabold;
+		
+		a {
+			color: #fff;
+		}
 	}
 
 }
@@ -53,7 +78,7 @@
 		padding: $spacing*5;
 	}
 	
-	label {
+	label, .small-title, .large-number {
 		color: $colour-brand-darkblue;
 	}
 }

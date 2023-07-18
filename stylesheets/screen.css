@@ -1740,6 +1740,106 @@ address {
   padding-left: 80px !important;
 }
 
+/* line 15, ../sass/settings/_spacing.scss */
+.utility-margin-11 {
+  margin: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-top-11 {
+  margin-top: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-right-11 {
+  margin-right: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-bottom-11 {
+  margin-bottom: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-left-11 {
+  margin-left: 88px !important;
+}
+
+/* line 15, ../sass/settings/_spacing.scss */
+.utility-padding-11 {
+  padding: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-top-11 {
+  padding-top: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-right-11 {
+  padding-right: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-bottom-11 {
+  padding-bottom: 88px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-left-11 {
+  padding-left: 88px !important;
+}
+
+/* line 15, ../sass/settings/_spacing.scss */
+.utility-margin-12 {
+  margin: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-top-12 {
+  margin-top: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-right-12 {
+  margin-right: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-bottom-12 {
+  margin-bottom: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-margin-left-12 {
+  margin-left: 96px !important;
+}
+
+/* line 15, ../sass/settings/_spacing.scss */
+.utility-padding-12 {
+  padding: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-top-12 {
+  padding-top: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-right-12 {
+  padding-right: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-bottom-12 {
+  padding-bottom: 96px !important;
+}
+
+/* line 10, ../sass/settings/_spacing.scss */
+.utility-padding-left-12 {
+  padding-left: 96px !important;
+}
+
 /* line 20, ../sass/settings/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-weight: 600;
@@ -1872,7 +1972,7 @@ input[type="text"], input[type="email"], input[type="password"], select, textare
 /* line 24, ../sass/elements/_forms.scss */
 input[type="checkbox"] {
   border: 1px #009AC9 solid;
-  width: 24px !important;
+  width: 24px;
   height: 24px;
 }
 
@@ -2319,7 +2419,27 @@ a.button:hover, input[type="submit"]:hover {
   color: #009AC9;
 }
 
-/* line 1, ../sass/components/_content-panels.scss */
+/* line 2, ../sass/components/_content-panels.scss */
+.content-panel .small-title, .shadow-panel .small-title {
+  font-size: 1.06rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+/* line 8, ../sass/components/_content-panels.scss */
+.content-panel .large-number, .shadow-panel .large-number {
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+}
+
+/* line 14, ../sass/components/_content-panels.scss */
+.content-panel-title {
+  margin-bottom: 16px;
+  font-size: 1.38rem;
+  font-weight: 600;
+  color: #20294D;
+}
+
+/* line 21, ../sass/components/_content-panels.scss */
 .content-panel {
   padding: 40px;
   background-color: #444D6F;
@@ -2328,7 +2448,7 @@ a.button:hover, input[type="submit"]:hover {
   z-index: 2;
   position: relative;
 }
-/* line 9, ../sass/components/_content-panels.scss */
+/* line 29, ../sass/components/_content-panels.scss */
 .content-panel:before {
   content: "";
   position: absolute;
@@ -2340,26 +2460,31 @@ a.button:hover, input[type="submit"]:hover {
   border-radius: 11px;
   z-index: -1;
 }
-/* line 21, ../sass/components/_content-panels.scss */
-.content-panel label {
+/* line 41, ../sass/components/_content-panels.scss */
+.content-panel label, .content-panel .small-title, .content-panel .large-number {
   color: #fff;
 }
-/* line 25, ../sass/components/_content-panels.scss */
-.content-panel .small-title {
-  color: #fff;
-  font-size: 1.06rem;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-/* line 32, ../sass/components/_content-panels.scss */
+/* line 45, ../sass/components/_content-panels.scss */
 .content-panel address {
   font-size: 0.94rem;
   line-height: 1.44rem;
   font-weight: 400;
   color: #fff;
 }
+/* line 52, ../sass/components/_content-panels.scss */
+.content-panel .indicator {
+  width: 65px;
+  height: 65px;
+  border: 3px #fff solid;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* line 59, ../sass/components/_content-panels.scss */
+.content-panel .indicator a {
+  color: #fff;
+}
 
-/* line 41, ../sass/components/_content-panels.scss */
+/* line 66, ../sass/components/_content-panels.scss */
 .shadow-panel {
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -2367,30 +2492,30 @@ a.button:hover, input[type="submit"]:hover {
   padding-bottom: 16px;
   overflow: hidden;
 }
-/* line 48, ../sass/components/_content-panels.scss */
+/* line 73, ../sass/components/_content-panels.scss */
 .shadow-panel__main-title {
   margin-bottom: 40px;
 }
-/* line 52, ../sass/components/_content-panels.scss */
+/* line 77, ../sass/components/_content-panels.scss */
 .shadow-panel--padded {
   padding: 40px;
 }
-/* line 56, ../sass/components/_content-panels.scss */
-.shadow-panel label {
+/* line 81, ../sass/components/_content-panels.scss */
+.shadow-panel label, .shadow-panel .small-title, .shadow-panel .large-number {
   color: #20294D;
 }
 
-/* line 61, ../sass/components/_content-panels.scss */
+/* line 86, ../sass/components/_content-panels.scss */
 .shadow-panel--dark {
   background-color: #444D6F;
 }
 
-/* line 65, ../sass/components/_content-panels.scss */
+/* line 90, ../sass/components/_content-panels.scss */
 .panel-padding {
   padding: 56px;
 }
 
-/* line 70, ../sass/components/_content-panels.scss */
+/* line 95, ../sass/components/_content-panels.scss */
 .panel-column .content-panel {
   margin-bottom: 16px;
 }
@@ -2681,7 +2806,7 @@ a.button:hover, input[type="submit"]:hover {
 }
 /* line 25, ../sass/components/_page-titles.scss */
 .page-title-block.has-meta .page-title {
-  padding-bottom: 0;
+  padding-bottom: 8px;
 }
 /* line 31, ../sass/components/_page-titles.scss */
 .page-title-block.has-indicator .page-title-block__meta {
@@ -2844,18 +2969,24 @@ table.stripe-table td.has-indicators {
   display: flex;
 }
 /* line 86, ../sass/components/_stripe-table.scss */
+table.stripe-table th input[type="checkbox"], table.stripe-table td input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 5px;
+}
+/* line 94, ../sass/components/_stripe-table.scss */
 table.stripe-table tbody tr:nth-of-type(odd) {
   background-color: #EFEFEF;
 }
-/* line 90, ../sass/components/_stripe-table.scss */
+/* line 98, ../sass/components/_stripe-table.scss */
 table.stripe-table tbody tr:nth-of-type(even) {
   background-color: #F8F8F8;
 }
-/* line 94, ../sass/components/_stripe-table.scss */
+/* line 102, ../sass/components/_stripe-table.scss */
 table.stripe-table tbody tr {
   margin-bottom: 4px;
 }
-/* line 98, ../sass/components/_stripe-table.scss */
+/* line 106, ../sass/components/_stripe-table.scss */
 table.stripe-table .indicator {
   width: 27px;
   height: 27px;
@@ -2865,12 +2996,12 @@ table.stripe-table .indicator {
   font-weight: 600;
 }
 
-/* line 112, ../sass/components/_stripe-table.scss */
+/* line 120, ../sass/components/_stripe-table.scss */
 .shadow-panel .stripe-table {
   margin-top: -4px;
 }
 
-/* line 116, ../sass/components/_stripe-table.scss */
+/* line 124, ../sass/components/_stripe-table.scss */
 footer.table-footer {
   display: -webkit-box;
   display: -moz-box;
@@ -2880,53 +3011,53 @@ footer.table-footer {
   justify-content: space-between;
 }
 
-/* line 127, ../sass/components/_stripe-table.scss */
+/* line 135, ../sass/components/_stripe-table.scss */
 .stripe-table--dark thead {
   background-color: #20294D;
 }
-/* line 131, ../sass/components/_stripe-table.scss */
+/* line 139, ../sass/components/_stripe-table.scss */
 .stripe-table--dark tbody {
   background-color: #444D6F;
 }
-/* line 134, ../sass/components/_stripe-table.scss */
+/* line 142, ../sass/components/_stripe-table.scss */
 .stripe-table--dark tbody tr:nth-of-type(odd) {
   background-color: #616B91 !important;
 }
-/* line 138, ../sass/components/_stripe-table.scss */
+/* line 146, ../sass/components/_stripe-table.scss */
 .stripe-table--dark tbody tr:nth-of-type(even) {
   background-color: #7984AF !important;
 }
-/* line 142, ../sass/components/_stripe-table.scss */
+/* line 150, ../sass/components/_stripe-table.scss */
 .stripe-table--dark tbody td {
   color: #fff;
 }
 
-/* line 150, ../sass/components/_stripe-table.scss */
+/* line 158, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr .icon-link__icon {
   border-color: #444D6F;
 }
-/* line 153, ../sass/components/_stripe-table.scss */
+/* line 161, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr .icon-link__icon:after {
   background-color: #444D6F;
 }
-/* line 159, ../sass/components/_stripe-table.scss */
+/* line 167, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr.alert {
   background-color: #FFE8E8 !important;
   color: #DD0000;
 }
-/* line 163, ../sass/components/_stripe-table.scss */
+/* line 171, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr.alert .icon-link__icon {
   border-color: #DD0000;
 }
-/* line 166, ../sass/components/_stripe-table.scss */
+/* line 174, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr.alert .icon-link__icon:after {
   background-color: #DD0000;
 }
-/* line 171, ../sass/components/_stripe-table.scss */
+/* line 179, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications tr.alert td {
   color: #DD0000 !important;
 }
-/* line 176, ../sass/components/_stripe-table.scss */
+/* line 184, ../sass/components/_stripe-table.scss */
 .stripe-table--notifications td {
   font-size: 0.94rem !important;
 }
@@ -2938,6 +3069,7 @@ footer.table-footer {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  justify-content: center;
   align-items: center;
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -2945,22 +3077,22 @@ footer.table-footer {
   font-weight: 800;
   text-align: center;
 }
-/* line 10, ../sass/components/_indicators.scss */
+/* line 11, ../sass/components/_indicators.scss */
 .indicator span {
   display: block;
   width: 100%;
 }
-/* line 15, ../sass/components/_indicators.scss */
+/* line 16, ../sass/components/_indicators.scss */
 .indicator--po {
   background-color: #2BCC95;
   color: #fff;
 }
-/* line 20, ../sass/components/_indicators.scss */
+/* line 21, ../sass/components/_indicators.scss */
 .indicator--order {
   background-color: #48029A;
   color: #fff;
 }
-/* line 25, ../sass/components/_indicators.scss */
+/* line 26, ../sass/components/_indicators.scss */
 .indicator__sub {
   border-radius: 50%;
   aspect-ratio: 1/1;
@@ -3222,11 +3354,10 @@ footer.table-footer {
 
 /* line 1, ../sass/components/_multiple-choice.scss */
 .multiple-choice {
-  margin-top: -72px;
-  margin-bottom: 88px;
+  margin-bottom: 40px;
   display: none;
 }
-/* line 7, ../sass/components/_multiple-choice.scss */
+/* line 6, ../sass/components/_multiple-choice.scss */
 .multiple-choice .form__field {
   display: -webkit-box;
   display: -moz-box;

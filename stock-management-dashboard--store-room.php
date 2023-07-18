@@ -154,6 +154,29 @@
 </div>
 
 <div class="container container--narrow utility-margin-top-11">
+	
+	<div class="multiple-choice content-panel">
+		<div class="form form-grid">
+			<div class="form-grid__row">
+				<div class="form__field">
+					<label>
+						Select an action for the selected 10 records
+					</label>
+				</div>
+				<div class="form__field">
+					<select>
+						<option>Select</option>
+						<option>1</option>
+						<option>2</option>
+					</select>	
+				</div>
+				<div class="form__field">
+					<input type="submit" value="Go" />
+				</div>
+			</div>	
+		</div>	
+	</div>
+	
 	<header class="table-title">
 		<div class="table-title__left">
 			<div class="table-title__title">
@@ -164,124 +187,126 @@
 			<h5>Showing 1 - 10 of 357</h5>
 		</div>
 	</header>
+	
 	<div class="shadow-panel">
-	<table class="TableCRM stripe-table">
-		<thead>
-			<tr>
-				<th>
-					<input type="checkbox" />	
-				</th>
-				<th>
-					Product Name
-				</th>
-				<th>
-					Supplier
-				</th>
-				<th>
-					Available
-				</th>
-				<th>
-					On Order
-				</th>
-				<th>
-					Backorder
-				</th>
-				<th>
-					Actions
-				</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<input type="checkbox" />	
-				</td>
-				<td>
-					Toothbrush
-				</td>
-				<td>
-					Colgate
-				</td>
-				<td>
-					1,567
-				</td>
-				<td>
-					100	
-				</td>
-				<td>
-					0
-				</td>
-				<td class="stripe-table__actions">
-					<nav class="actions-links">
-						<a class="actions-link" title="Click to View this Product" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
-						<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
-					</nav>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="checkbox" />	
-				</td>
-				<td>
-					Toothbrush
-				</td>
-				<td>
-					Colgate
-				</td>
-				<td>
-					1,567
-				</td>
-				<td>
-					100	
-				</td>
-				<td>
-					0
-				</td>
-				<td class="stripe-table__actions">
-					<nav class="actions-links">
-						<a class="actions-link" title="Click to View this Product" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
-						<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
-					</nav>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="checkbox" />	
-				</td>
-				<td>
-					Toothbrush
-				</td>
-				<td>
-					Colgate
-				</td>
-				<td>
-					1,567
-				</td>
-				<td>
-					100	
-				</td>
-				<td>
-					0
-				</td>
-				<td class="stripe-table__actions">
-					<nav class="actions-links">
-						<a class="actions-link" title="Click to View this Product" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
-						<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
-					</nav>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-
-<div class="pagination">
-	<a class="prev" href="#">Previous Page</a>
-	<ul>
-		<li class="current"><a href="#"></a></li>
-		<li><a href="#"></a></li>
-		<li><a href="#"></a></li>
-	</ul>
-	<a class="next" href="#">Next Page</a>
+		<table class="TableCRM stripe-table">
+			<thead>
+				<tr>
+					<th>
+						<input type="checkbox" />	
+					</th>
+					<th>
+						Product Name
+					</th>
+					<th>
+						Supplier
+					</th>
+					<th>
+						Available
+					</th>
+					<th>
+						On Order
+					</th>
+					<th>
+						Backorder
+					</th>
+					<th>
+						Actions
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="checkbox" />	
+					</td>
+					<td>
+						Toothbrush
+					</td>
+					<td>
+						Colgate
+					</td>
+					<td>
+						1,567
+					</td>
+					<td>
+						100	
+					</td>
+					<td>
+						0
+					</td>
+					<td class="stripe-table__actions">
+						<nav class="actions-links">
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
+						</nav>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" />	
+					</td>
+					<td>
+						Toothbrush
+					</td>
+					<td>
+						Colgate
+					</td>
+					<td>
+						1,567
+					</td>
+					<td>
+						100	
+					</td>
+					<td>
+						0
+					</td>
+					<td class="stripe-table__actions">
+						<nav class="actions-links">
+							<a class="actions-link" title="Click to View this Stock Item" href="stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
+						</nav>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" />	
+					</td>
+					<td>
+						Toothbrush
+					</td>
+					<td>
+						Colgate
+					</td>
+					<td>
+						1,567
+					</td>
+					<td>
+						100	
+					</td>
+					<td>
+						0
+					</td>
+					<td class="stripe-table__actions">
+						<nav class="actions-links">
+							<a class="actions-link" title="Click to View this Product" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
+							<a class="actions-link" title="Click to Receive Stock" href="#"><i class="fa-solid fa-barcode fa-fw"></i></a>
+						</nav>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="pagination">
+		<a class="prev" href="#">Previous Page</a>
+		<ul>
+			<li class="current"><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+		<a class="next" href="#">Next Page</a>
+	</div>
 </div>
 
 <?php include 'footer.php'; ?>

@@ -44,7 +44,7 @@
 				<div class="form-grid__row">
 					<div class="form__field Required">
 						<label>Supplier</label>
-						<input type="text" value="Centaur" readonly />	
+						<input type="text" value="Colgate" readonly />	
 					</div>
 				</div>
 				<div class="form-grid__row">

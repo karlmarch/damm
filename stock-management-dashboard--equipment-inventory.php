@@ -155,125 +155,141 @@
 	</form>
 </div>
 
-<div class="multiple-choice content-panel">
-	<div class="form form-grid">
-		<div class="form-grid__row">
-			<div class="form__field">
-				<label>
-					Select an action for the selected 10 records
-				</label>
-			</div>
-			<div class="form__field">
-				<select>
-					<option>Select</option>
-					<option>1</option>
-					<option>2</option>
-				</select>	
-			</div>
-			<div class="form__field">
-				<input type="submit" value="Go" />
-			</div>
-		</div>	
-	</div>	
-</div>
-
 <div class="container container--narrow utility-margin-top-11">
+	
+	<div class="multiple-choice content-panel">
+		<div class="form form-grid">
+			<div class="form-grid__row">
+				<div class="form__field">
+					<label>
+						Select an action for the selected 10 records
+					</label>
+				</div>
+				<div class="form__field">
+					<select>
+						<option>Select</option>
+						<option>1</option>
+						<option>2</option>
+					</select>	
+				</div>
+				<div class="form__field">
+					<input type="submit" value="Go" />
+				</div>
+			</div>	
+		</div>	
+	</div>
+	
 	<header class="table-title">
-		<div class="table-title__title">
-			<h3>Store Room</h3>
+		<div class="table-title__left">
+			<div class="table-title__title">
+				<h3>Equipment Inventory</h3>
+			</div>
+		</div>
+		<div class="table-title__right">
+			<h5>Showing 1 - 10 of 357</h5>
 		</div>
 	</header>	
 	<div class="shadow-panel">
-	<table class="TableCRM stripe-table">
-		<thead>
-			<tr>
-				<th>
-					<input type="checkbox" />	
-				</th>
-				<th>
-					Serial No
-				</th>
-				<th>
-					Product Name
-				</th>
-				<th>
-					Supplier
-				</th>
-				<th>
-					Supplier Code
-				</th>
-				<th>
-					Location
-				</th>
-				<th>
-					Designation 
-				</th>
-				<th>
-					Actions
-				</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<input type="checkbox" />	
-				</td>
-				<td>
-					XA986TR
-				</td>
-				<td>
-					Kavo Experttorque
-				</td>
-				<td>
-					Company X
-				</td>
-				<td>
-					CG54313	
-				</td>
-				<td>
-					Clinic Room 1
-				</td>
-				<td>
-					None
-				</td>
-				<td class="stripe-table__actions">
-					<nav class="actions-links">
-						<a class="actions-link" title="Click to View this Inventory Item" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
-						
-					</nav>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="checkbox" />	
-				</td>
-				<td>
-					XA986TR
-				</td>
-				<td>
-					Kavo Experttorque
-				</td>
-				<td>
-					Company X
-				</td>
-				<td>
-					CG54313	
-				</td>
-				<td>
-					Clinic Room 1
-				</td>
-				<td>
-					None
-				</td>
-				<td class="stripe-table__actions">
-					<nav class="actions-links">
-						<a class="actions-link" title="Click to View this Inventory Item" href="#"><i class="fa-solid fa-eye fa-fw"></i></a>
-						
-					</nav>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+		<table class="TableCRM stripe-table">
+			<thead>
+				<tr>
+					<th>
+						<input type="checkbox" />	
+					</th>
+					<th>
+						Serial No
+					</th>
+					<th>
+						Product Name
+					</th>
+					<th>
+						Supplier
+					</th>
+					<th>
+						Supplier Code
+					</th>
+					<th>
+						Location
+					</th>
+					<th>
+						Designation 
+					</th>
+					<th>
+						Actions
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="checkbox" />	
+					</td>
+					<td>
+						XA986TR
+					</td>
+					<td>
+						Kavo Experttorque
+					</td>
+					<td>
+						Company X
+					</td>
+					<td>
+						CG54313	
+					</td>
+					<td>
+						Clinic Room 1
+					</td>
+					<td>
+						None
+					</td>
+					<td class="stripe-table__actions">
+						<nav class="actions-links">
+							<a class="actions-link" title="Click to View this Inventory Item" href="equipment-stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+						</nav>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" />	
+					</td>
+					<td>
+						XA986TR
+					</td>
+					<td>
+						Kavo Experttorque
+					</td>
+					<td>
+						Company X
+					</td>
+					<td>
+						CG54313	
+					</td>
+					<td>
+						Clinic Room 1
+					</td>
+					<td>
+						None
+					</td>
+					<td class="stripe-table__actions">
+						<nav class="actions-links">
+							<a class="actions-link" title="Click to View this Inventory Item" href="equipment-stock-item-single.php"><i class="fa-solid fa-eye fa-fw"></i></a>
+							
+						</nav>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="pagination">
+		<a class="prev" href="#">Previous Page</a>
+		<ul>
+			<li class="current"><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+		<a class="next" href="#">Next Page</a>
+	</div>
 </div>
 
 <?php include 'footer.php'; ?>

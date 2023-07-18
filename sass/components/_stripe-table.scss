@@ -82,6 +82,14 @@ table.stripe-table {
 		@include flexbox();
 	}
 	
+	th, td {
+		input[type="checkbox"] {
+			width: 20px !important;
+			height: 20px !important;
+			border-radius: 5px;
+		}
+	}
+	
 	tbody {
 		tr:nth-of-type(odd) {
 			background-color: $colour-stripe-dark;	
